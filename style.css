@@ -6,25 +6,15 @@ body {
 #content {
   position: relative;
 
-}
 
-.circle {
-  width: 70px;
-  height: 70px;
-  background: linear-gradient(#CCB2FF, #FFEBF5);
-  border-radius: 50px;
-  opacity: 0.7;
-  margin-left: 200px;
-  margin-top: 200px;
-}
 
-#2 {
-  width: 100px;
-  height: 100px;
+.1 {
+  width: 200px;
+  height: 200px;
   background: linear-gradient(#CCB2FF, #FFEBF5);
   border-radius: 70px;
-  opacity: 0.5;
-  position: absolute;
+  opacity: 1;
+  position: relative;
   left: 20px;
 
 }
