@@ -1,0 +1,25 @@
+Bubbles: the game
+
+styled like the apple iphone background, random bubbles will appear in varying sizes on the screen in a fade in / fade out fashion. 
+players will be given 20 seconds to burst as many bubbles as possible using the cursor to click on the bubble itself.
+after 20 seconds the game will end and it will be the second players turn.
+
+counter in the background will count up the amount of bubbles burst per player and define the winner.
+
+their will be music in the background 
+
+each bubble will have a sound effect when burst.
+
+the ethos of the game will be more of a relaxing experience as opposed to clicking and bursting as much as possible with ambient music and calming sound effects.
+
+background: will be a static image, in a calming colour such as a tonal baby blue.
+
+bubbles will not neccessarily move but will fade in and out of the screen.
+
+clicking on the bubble will make the bubble burst and disappear.
+
+I am going to try and implement it to be random where on the screen the bubbles appear and how many appear.
+
+will need a click listener on the bubbles themselves so once pressed - bubble will be burst and disappear.
+
+

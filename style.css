@@ -1,0 +1,126 @@
+body {
+  height: 800px;
+  background: linear-gradient(#E6B4FF, #FFEBF5);
+}
+
+#content {
+  position: relative;
+
+}
+
+.circle {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(#CCB2FF, #FFEBF5);
+  border-radius: 50px;
+  opacity: 0.7;
+  margin-left: 200px;
+  margin-top: 200px;
+}
+
+#2 {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(#CCB2FF, #FFEBF5);
+  border-radius: 70px;
+  opacity: 0.5;
+  position: absolute;
+  left: 20px;
+
+}
+
+#3 {
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(#EBE0FF, #FFEBF5);
+  border-radius: 70px;
+  opacity: 0.68;
+  position: absolute;
+  left:100px;
+
+}
+
+#circle4 {
+  width: 130px;
+  height: 130px;
+  background: linear-gradient(#CCB2FF, #FFEBF5);
+  border-radius: 70px;
+  opacity: 0.8;
+  position: absolute;
+  left: 370px;
+
+}
+
+#circle5 {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(#CCB2FF, #FFEBF5);
+  border-radius: 50px;
+  opacity: 0.89;
+ position: absolute;
+ left: 780px;
+}
+
+#circle6 {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(#CCB2FF, #FFEBF5);
+  border-radius: 50px;
+  opacity: 0.7;
+  margin-left: 800px;
+  margin-top: 70px;
+  position: absolute;
+}
+
+#circle7 {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(#CCB2FF, #FFEBF5);
+  border-radius: 50px;
+  opacity: 0.7;
+  margin-left: 200px;
+  margin-top: 200px;
+}
+
+#circle8 {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(#CCB2FF, #FFEBF5);
+  border-radius: 50px;
+  opacity: 0.7;
+  margin-left: 200px;
+  margin-top: 200px;
+
+}
+
+#circle9 {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(#CCB2FF, #FFEBF5);
+  border-radius: 50px;
+  opacity: 0.7;
+  margin-left: 200px;
+  margin-top: 200px;
+
+}
+
+#circle10 {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(#CCB2FF, #FFEBF5);
+  border-radius: 50px;
+  opacity: 0.7;
+  margin-left: 200px;
+  margin-top: 200px;
+
+}
+
+#circle11 {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(#CCB2FF, #FFEBF5);
+  border-radius: 50px;
+  opacity: 0.7;
+  margin-left: 200px;
+  margin-top: 200px;
+}
