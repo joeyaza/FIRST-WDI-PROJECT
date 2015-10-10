@@ -1,70 +1,397 @@
 $(document).ready(function(){
-    animateDiv();
-    makeNewPosition();
+  moveDiv();
+  moveDiv2();
+  moveDiv3();
+  moveDiv4();
+  moveDiv5();
+  moveDiv6();
+  moveDiv7();
+  moveDiv8();
+  moveDiv9();
+  moveDiv10();
+  moveDiv11();
+  moveDiv12();
+  moveDiv13();
+  moveDiv14();
+  moveDiv15();
 
-  
+
+  function moveDiv() {
+
+    var $span = $("#one");
     
+    $span.fadeOut(700, function() {
+      var maxLeft = $(window).width() - $span.width();
+      var maxTop = $(window).height() - $span.height();
+      var leftPos = Math.floor(Math.random() * (maxLeft + 1))
+      var topPos = Math.floor(Math.random() * (maxTop + 1))
+
+      $span.css({ left: leftPos, top: topPos }).fadeIn(700);
+    });
+  };
+
+  setInterval(moveDiv, 2000);
+
+  function moveDiv2() {
+
+    var $span = $("#two");
+    
+    $span.fadeOut(700, function() {
+      var maxLeft = $(window).width() - $span.width();
+      var maxTop = $(window).height() - $span.height();
+      var leftPos = Math.floor(Math.random() * (maxLeft + 1))
+      var topPos = Math.floor(Math.random() * (maxTop + 1))
+
+      $span.css({ left: leftPos, top: topPos }).fadeIn(700);
+    });
+  };
+
+  setInterval(moveDiv2, 3000);
+
+  function moveDiv3() {
+
+    var $span = $("#three");
+    
+    $span.fadeOut(700, function() {
+      var maxLeft = $(window).width() - $span.width();
+      var maxTop = $(window).height() - $span.height();
+      var leftPos = Math.floor(Math.random() * (maxLeft + 1))
+      var topPos = Math.floor(Math.random() * (maxTop + 1))
+
+      $span.css({ left: leftPos, top: topPos }).fadeIn(700);
+    });
+  };
+
+
+  setInterval(moveDiv3, 3000);
+
 });
 
-function setFade(){
-    $(".circle2").fadeToggle((1000),600);}
+function moveDiv4() {
 
+  var $span = $("#four");
 
-function makeNewPosition(){
-    
-    // Get viewport dimensions (remove the dimension of the div)
-    var h = $(window).height() - 50;
-    var w = $(window).width() - 50;
-    
-    var nh = Math.floor(Math.random() * h);
-    var nw = Math.floor(Math.random() * w);
-    
-    return [nh,nw];    
-    
-}
+  $span.fadeOut(700, function() {
+    var maxLeft = $(window).width() - $span.width();
+    var maxTop = $(window).height() - $span.height();
+    var leftPos = Math.floor(Math.random() * (maxLeft + 1))
+    var topPos = Math.floor(Math.random() * (maxTop + 1))
 
-function animateDiv(){
-    // for (var i=0; i <.target.id)
-
-    var newq = makeNewPosition();
-    var oldq = $('.circle').offset();
-    var speed = calcSpeed([oldq.top, oldq.left], newq);
-    
-
-
-    $('#one').animate({ top: newq[0], left: newq[1] }, speed, function(){
-      animateDiv();        
-    });
-    
+    $span.css({ left: leftPos, top: topPos }).fadeIn(700);
+  });
 };
 
-function calcSpeed(prev, next) {
-    
-    var x = Math.abs(prev[1] - next[1]);
-    var y = Math.abs(prev[0] - next[0]);
-    
-    var greatest = x > y ? x : y;
-    
-    var speedModifier = 0.03;
 
-    var speed = Math.ceil(greatest/speedModifier);
+setInterval(moveDiv4, 3000);
 
-    return speed;
+function moveDiv5() {
 
-}
+  var $span = $("#five");
 
+  $span.fadeOut(700, function() {
+    var maxLeft = $(window).width() - $span.width();
+    var maxTop = $(window).height() - $span.height();
+    var leftPos = Math.floor(Math.random() * (maxLeft + 1))
+    var topPos = Math.floor(Math.random() * (maxTop + 1))
 
-
-
+    $span.css({ left: leftPos, top: topPos }).fadeIn(700);
+  });
+};
 
 
+setInterval(moveDiv5, 3000);
+
+function moveDiv6() {
+
+  var $span = $("#six");
+
+  $span.fadeOut(700, function() {
+    var maxLeft = $(window).width() - $span.width();
+    var maxTop = $(window).height() - $span.height();
+    var leftPos = Math.floor(Math.random() * (maxLeft + 1))
+    var topPos = Math.floor(Math.random() * (maxTop + 1))
+
+    $span.css({ left: leftPos, top: topPos }).fadeIn(700);
+  });
+};
 
 
+setInterval(moveDiv6, 3000);
+
+function moveDiv7() {
+
+  var $span = $("#seven");
+
+  $span.fadeOut(700, function() {
+    var maxLeft = $(window).width() - $span.width();
+    var maxTop = $(window).height() - $span.height();
+    var leftPos = Math.floor(Math.random() * (maxLeft + 1))
+    var topPos = Math.floor(Math.random() * (maxTop + 1))
+
+    $span.css({ left: leftPos, top: topPos }).fadeIn(700);
+  });
+};
 
 
+setInterval(moveDiv7, 3000);
 
 
+function moveDiv8() {
 
+  var $span = $("#eight");
+
+  $span.fadeOut(700, function() {
+    var maxLeft = $(window).width() - $span.width();
+    var maxTop = $(window).height() - $span.height();
+    var leftPos = Math.floor(Math.random() * (maxLeft + 1))
+    var topPos = Math.floor(Math.random() * (maxTop + 1))
+
+    $span.css({ left: leftPos, top: topPos }).fadeIn(700);
+  });
+};
+
+
+setInterval(moveDiv8, 3000);
+
+function moveDiv9() {
+
+  var $span = $("#nine");
+
+  $span.fadeOut(700, function() {
+    var maxLeft = $(window).width() - $span.width();
+    var maxTop = $(window).height() - $span.height();
+    var leftPos = Math.floor(Math.random() * (maxLeft + 1))
+    var topPos = Math.floor(Math.random() * (maxTop + 1))
+
+    $span.css({ left: leftPos, top: topPos }).fadeIn(700);
+  });
+};
+
+
+setInterval(moveDiv9, 3000);
+
+
+function moveDiv10() {
+
+  var $span = $("#ten");
+
+  $span.fadeOut(700, function() {
+    var maxLeft = $(window).width() - $span.width();
+    var maxTop = $(window).height() - $span.height();
+    var leftPos = Math.floor(Math.random() * (maxLeft + 1))
+    var topPos = Math.floor(Math.random() * (maxTop + 1))
+
+    $span.css({ left: leftPos, top: topPos }).fadeIn(700);
+  });
+};
+
+
+setInterval(moveDiv10, 3000);
+
+function moveDiv11() {
+
+  var $span = $("#eleven");
+
+  $span.fadeOut(700, function() {
+    var maxLeft = $(window).width() - $span.width();
+    var maxTop = $(window).height() - $span.height();
+    var leftPos = Math.floor(Math.random() * (maxLeft + 1))
+    var topPos = Math.floor(Math.random() * (maxTop + 1))
+
+    $span.css({ left: leftPos, top: topPos }).fadeIn(700);
+  });
+};
+
+
+setInterval(moveDiv11, 3000);
+
+function moveDiv12() {
+
+  var $span = $("#twelve");
+
+  $span.fadeOut(900, function() {
+    var maxLeft = $(window).width() - $span.width();
+    var maxTop = $(window).height() - $span.height();
+    var leftPos = Math.floor(Math.random() * (maxLeft + 1))
+    var topPos = Math.floor(Math.random() * (maxTop + 1))
+
+    $span.css({ left: leftPos, top: topPos }).fadeIn(600);
+  });
+};
+
+
+setInterval(moveDiv12, 4000);
+
+
+function moveDiv13() {
+
+  var $span = $("#thirteen");
+
+  $span.fadeOut(400, function() {
+    var maxLeft = $(window).width() - $span.width();
+    var maxTop = $(window).height() - $span.height();
+    var leftPos = Math.floor(Math.random() * (maxLeft + 1))
+    var topPos = Math.floor(Math.random() * (maxTop + 1))
+
+    $span.css({ left: leftPos, top: topPos }).fadeIn(900);
+  });
+};
+
+
+setInterval(moveDiv13, 3900);
+
+function moveDiv14() {
+
+  var $span = $("#fourteen");
+
+  $span.fadeOut(700, function() {
+    var maxLeft = $(window).width() - $span.width();
+    var maxTop = $(window).height() - $span.height();
+    var leftPos = Math.floor(Math.random() * (maxLeft + 1))
+    var topPos = Math.floor(Math.random() * (maxTop + 1))
+
+    $span.css({ left: leftPos, top: topPos }).fadeIn(700);
+  });
+};
+
+
+setInterval(moveDiv14, 3500);
+
+function moveDiv15() {
+
+  var $span = $("#fifteen");
+
+  $span.fadeOut(700, function() {
+    var maxLeft = $(window).width() - $span.width();
+    var maxTop = $(window).height() - $span.height();
+    var leftPos = Math.floor(Math.random() * (maxLeft + 1))
+    var topPos = Math.floor(Math.random() * (maxTop + 1))
+
+    $span.css({ left: leftPos, top: topPos }).fadeIn(700);
+  });
+};
+
+
+setInterval(moveDiv15, 2000);
+
+function moveDiv15() {
+
+  var $span = $("#fifteen");
+
+  $span.fadeOut(700, function() {
+    var maxLeft = $(window).width() - $span.width();
+    var maxTop = $(window).height() - $span.height();
+    var leftPos = Math.floor(Math.random() * (maxLeft + 1))
+    var topPos = Math.floor(Math.random() * (maxTop + 1))
+
+    $span.css({ left: leftPos, top: topPos }).fadeIn(700);
+  });
+};
+
+
+setInterval(moveDiv15, 2000);
+
+function moveDiv16() {
+
+  var $span = $("#sixteen");
+
+  $span.fadeOut(700, function() {
+    var maxLeft = $(window).width() - $span.width();
+    var maxTop = $(window).height() - $span.height();
+    var leftPos = Math.floor(Math.random() * (maxLeft + 1))
+    var topPos = Math.floor(Math.random() * (maxTop + 1))
+
+    $span.css({ left: leftPos, top: topPos }).fadeIn(700);
+  });
+};
+
+
+setInterval(moveDiv16, 2000);
+
+function moveDiv17() {
+
+  var $span = $("#seventeen");
+
+  $span.fadeOut(700, function() {
+    var maxLeft = $(window).width() - $span.width();
+    var maxTop = $(window).height() - $span.height();
+    var leftPos = Math.floor(Math.random() * (maxLeft + 1))
+    var topPos = Math.floor(Math.random() * (maxTop + 1))
+
+    $span.css({ left: leftPos, top: topPos }).fadeIn(700);
+  });
+};
+
+
+setInterval(moveDiv17, 2000);
+
+function moveDiv18() {
+
+  var $span = $("#eighteen");
+
+  $span.fadeOut(700, function() {
+    var maxLeft = $(window).width() - $span.width();
+    var maxTop = $(window).height() - $span.height();
+    var leftPos = Math.floor(Math.random() * (maxLeft + 1))
+    var topPos = Math.floor(Math.random() * (maxTop + 1))
+
+    $span.css({ left: leftPos, top: topPos }).fadeIn(700);
+  });
+};
+
+
+setInterval(moveDiv18, 2000);
+
+function moveDiv19() {
+
+  var $span = $("#nineteen");
+
+  $span.fadeOut(700, function() {
+    var maxLeft = $(window).width() - $span.width();
+    var maxTop = $(window).height() - $span.height();
+    var leftPos = Math.floor(Math.random() * (maxLeft + 1))
+    var topPos = Math.floor(Math.random() * (maxTop + 1))
+
+    $span.css({ left: leftPos, top: topPos }).fadeIn(700);
+  });
+};
+
+
+setInterval(moveDiv19, 2000);
+
+function moveDiv20() {
+
+  var $span = $("#twenty");
+
+  $span.fadeOut(700, function() {
+    var maxLeft = $(window).width() - $span.width();
+    var maxTop = $(window).height() - $span.height();
+    var leftPos = Math.floor(Math.random() * (maxLeft + 1))
+    var topPos = Math.floor(Math.random() * (maxTop + 1))
+
+    $span.css({ left: leftPos, top: topPos }).fadeIn(700);
+  });
+};
+
+
+setInterval(moveDiv20, 2000);
+
+function moveDiv21() {
+
+  var $span = $("#twentyone");
+
+  $span.fadeOut(700, function() {
+    var maxLeft = $(window).width() - $span.width();
+    var maxTop = $(window).height() - $span.height();
+    var leftPos = Math.floor(Math.random() * (maxLeft + 1))
+    var topPos = Math.floor(Math.random() * (maxTop + 1))
+
+    $span.css({ left: leftPos, top: topPos }).fadeIn(700);
+  });
+};
+
+
+setInterval(moveDiv21, 2000);
 
 
 

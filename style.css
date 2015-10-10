@@ -11,7 +11,7 @@ body {
   border-radius: 60px;
   position: absolute;
   left: 100px;
-  opacity: 0.7;
+ 
 }
 
 #two {
@@ -22,7 +22,7 @@ body {
   position: absolute;
   left: 300px;
   top: 300px;
-  opacity: 0.9;
+
 }
 
 #three {
@@ -32,7 +32,7 @@ body {
   border-radius: 100px;
   position: absolute;
   left: 400px;
-  opacity: 0.29;
+
 }
 
 #four {
@@ -156,19 +156,68 @@ opacity: 0.29;
 #fifteen {
   width: 180px;
   height: 180px;
-  background: linear-gradient(#E0D1FF, #FF99FF);
+  background: linear-gradient(#F5D6EB, #FF99FF);
   border-radius: 100px;
   position: absolute;
   left: 1000px;
   bottom: 1200px;
 }
 
-#1 {
-  width: 100px;
-  height: 100px;
-  background: linear-gradient(#E6B4FF, #FFEBF5);
-  border-radius: 50px;
+#sixteen {
+  width: 160px;
+  height: 160px;
+  background: linear-gradient(#E0D1FF, #FF99FF);
+  border-radius: 80px;
   position: absolute;
-  left: 300px;
+  left: 1000px;
   bottom: 1200px;
 }
+
+#seventeen {
+  width: 180px;
+  height: 180px;
+  background: linear-gradient(#E0D1FF, #FF99FF);
+  border-radius: 100px;
+  position: absolute;
+  left: 300px;
+  bottom: 900px;
+}
+
+#eighteen {
+  width: 180px;
+  height: 180px;
+  background: linear-gradient(#E0D1FF, #FF99FF);
+  border-radius: 100px;
+  position: absolute;
+  left: 300px;
+  bottom: 900px;
+  }
+
+#nineteen {
+    width: 120px;
+    height: 120px;
+    background: linear-gradient(#FF99FF, #FFEBF5);
+    border-radius: 60px;
+    position: absolute;
+    left: 100px;
+  }
+
+    #twenty {
+      width: 140px;
+      height: 140px;
+      background: linear-gradient(#FFCCE0, #EBE0FF);
+      border-radius: 70px;
+      position: absolute;
+      left: 100px;
+    }
+
+
+    #twentyone {
+      width: 120px;
+      height: 120px;
+      background: linear-gradient(#FFCCE0, #FFEBF5);
+      border-radius: 60px;
+      position: absolute;
+      left: 100px;
+      opacity: 0.1;
+    }
