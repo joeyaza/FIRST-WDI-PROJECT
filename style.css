@@ -11,6 +11,7 @@ body {
   border-radius: 60px;
   position: absolute;
   left: 100px;
+  opacity: 0.45;
  
 }
 
@@ -22,16 +23,18 @@ body {
   position: absolute;
   left: 300px;
   top: 300px;
+  opacity: 0.8;
 
 }
 
 #three {
   width: 180px;
   height: 180px;
-  background: linear-gradient(#E6B4FF, #FF99FF);
+  background: linear-gradient(#E0FFD6, #FF99FF);
   border-radius: 100px;
   position: absolute;
   left: 400px;
+  opacity: 0.57;
 
 }
 
@@ -53,7 +56,7 @@ body {
   position: absolute;
   left: 300px;
   top: 300px;
-  opacity: 0.29;
+  opacity: Math.random();
 }
 
 #six {
@@ -64,7 +67,7 @@ body {
   position: absolute;
   left: 700px;
 bottom: 400px;
-opacity: 0.29;
+opacity: Math.random();
 }
 
 #seven {
@@ -75,7 +78,7 @@ opacity: 0.29;
   position: absolute;
    left: 700px;
  bottom: 400px;
- opacity: 0.29;
+ opacity: Math.random();
 }
 
 #eight {
@@ -86,7 +89,7 @@ opacity: 0.29;
   position: absolute;
   left: 300px;
   bottom: 300px;
-  opacity: 0.29;
+  opacity: Math.random();
 }
 
 #nine {
@@ -97,7 +100,7 @@ opacity: 0.29;
   position: absolute;
   left: 400px;
   bottom: 500px;
-  opacity: 0.29;
+  opacity: Math.random();
 }
 
 #ten {
@@ -108,7 +111,7 @@ opacity: 0.29;
   position: absolute;
   left: 500px;
   bottom: 500px;
-  opacity: 0.29;
+  opacity: Math.random();
 }
 
 #eleven {
@@ -119,17 +122,18 @@ opacity: 0.29;
   position: absolute;
   left: 400px;
   bottom: 700px;
-  opacity: 0.29;
+  opacity: Math.random();
 }
 
 #twelve {
   width: 180px;
   height: 180px;
-  background: linear-gradient(#E0D1FF, #FF99FF);
+  background: linear-gradient(#E0D1FF, #FFF5F0);
   border-radius: 100px;
   position: absolute;
   left: 300px;
   bottom: 900px;
+  opacity: Math.random();
 }
 
 #thirteen {
@@ -140,17 +144,18 @@ opacity: 0.29;
   position: absolute;
   left: 700px;
   bottom: 1500px;
+  opacity: Math.random();
 }
 
 #fourteen {
   width: 100px;
   height: 100px;
-  background: linear-gradient(#E6B4FF, #FFEBF5);
+  background: linear-gradient(#FFFFF5, #FFEBF5);
   border-radius: 50px;
   position: absolute;
   left: 300px;
   bottom: 1200px;
-  opacity: 0.4;
+  opacity: Math.random();
 }
 
 #fifteen {
@@ -161,37 +166,41 @@ opacity: 0.29;
   position: absolute;
   left: 1000px;
   bottom: 1200px;
+  opacity: Math.random();
 }
 
 #sixteen {
   width: 160px;
   height: 160px;
-  background: linear-gradient(#E0D1FF, #FF99FF);
+  background: linear-gradient(#E0D1FF, #FFFFF5);
   border-radius: 80px;
   position: absolute;
   left: 1000px;
   bottom: 1200px;
+  opacity: Math.random();
 }
 
 #seventeen {
   width: 180px;
   height: 180px;
-  background: linear-gradient(#E0D1FF, #FF99FF);
+  background: linear-gradient(#E0D1FF,#F5D6EB, #FF99FF);
   border-radius: 100px;
   position: absolute;
   left: 300px;
   bottom: 900px;
+  opacity: Math.random();
 }
 
 #eighteen {
   width: 180px;
   height: 180px;
   background: linear-gradient(#E0D1FF, #FF99FF);
-  border-radius: 100px;
+  border-radius: 90px;
   position: absolute;
   left: 300px;
   bottom: 900px;
-  }
+  opacity: Math.random();
+}
 
 #nineteen {
     width: 120px;
@@ -200,24 +209,234 @@ opacity: 0.29;
     border-radius: 60px;
     position: absolute;
     left: 100px;
-  }
+    opacity: Math.random();
+}
 
     #twenty {
       width: 140px;
       height: 140px;
-      background: linear-gradient(#FFCCE0, #EBE0FF);
+      background: linear-gradient(#EBF0FF, #EBE0FF);
       border-radius: 70px;
       position: absolute;
       left: 100px;
+      opacity: Math.random();
     }
 
 
     #twentyone {
       width: 120px;
       height: 120px;
+      background: linear-gradient(#FFCCE0, #EBF0FF);
+      border-radius: 60px;
+      position: absolute;
+      left: 100px;
+      opacity: Math.random();
+    }
+
+    #twentytwo {
+      width: 120px;
+      height: 120px;
+      background: linear-gradient(#EBF0FF, #FFEBF5);
+      border-radius: 60px;
+      position: absolute;
+      left: 100px;
+      opacity: Math.random();
+    }
+
+    #twentythree {
+      width: 120px;
+      height: 120px;
+      background: linear-gradient(#FFCCE0, #FFE0FF);
+      border-radius: 60px;
+      position: absolute;
+      left: 100px;
+      opacity: Math.random();
+    }
+    #twentyfour {
+      width: 120px;
+      height: 120px;
       background: linear-gradient(#FFCCE0, #FFEBF5);
       border-radius: 60px;
       position: absolute;
       left: 100px;
-      opacity: 0.1;
+      opacity: Math.random();
     }
+    #twentyfive {
+      width: 30px;
+      height: 30px;
+      background: linear-gradient(#FFCCE0, #FFE0FF);
+      border-radius: 15px;
+      position: absolute;
+      left: 100px;
+      opacity: Math.random();
+    }
+
+    #twentysix {
+      width: 50px;
+      height: 50px;
+      background: linear-gradient(#FFCCE0, #FFE0FF);
+      border-radius: 25px;
+      position: absolute;
+      left: 100px;
+      opacity: Math.random();
+    }
+
+    #twentysix {
+      width: 300px;
+      height: 300px;
+      background: linear-gradient(#FFE0FF, #FFEBF5, #75FFFF);
+      border-radius: 150px;
+      position: absolute;
+      left: 100px;
+      opacity: 0.2;
+      opacity: Math.random();
+    }
+
+    #twentyseven {
+      width: 400px;
+      height: 400px;
+      background: linear-gradient(#FFFFF5, #B2FFFF, #FFEBF5);
+      border-radius: 200px;
+      position: absolute;
+      left: 100px;
+      opacity: 0.4;
+      opacity: Math.random();
+    }
+
+    #twentyeight {
+      width: 100px;
+      height: 100px;
+      background: linear-gradient(#FFFFE0, #FFADD6, #FFEBF5);
+      border-radius: 50px;
+      position: absolute;
+      left: 100px;
+      opacity: Math.random();
+    }
+
+    #twentynine {
+      width: 120px;
+      height: 120px;
+      background: linear-gradient(#FFCCE0, #FFEBF5, #FFB2FF);
+      border-radius: 60px;
+      position: absolute;
+      left: 100px;
+      opacity: Math.random();
+    }
+
+  #thirty {
+    width: 120px;
+    height: 120px;
+    background: linear-gradient(#FFFFE0, #FFEBF5);
+    border-radius: 60px;
+    position: absolute;
+    left: 100px;
+    opacity: 0.4;
+  }
+
+  #thirtyone {
+    width: 120px;
+    height: 120px;
+    background: linear-gradient(#FF99FF, #FFEBF5);
+    border-radius: 60px;
+    position: absolute;
+    left: 100px;
+   
+  }
+
+  #thirtytwo {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(#E6B4FF, #FFEBF5, #CCFFFF);
+    border-radius: 50px;
+    position: absolute;
+    left: 300px;
+    top: 300px;
+    opacity: Math.random();
+
+  }
+
+  #thirtythree {
+    width: 180px;
+    height: 180px;
+    background: linear-gradient(#E0FFD6, #FF99FF);
+    border-radius: 100px;
+    position: absolute;
+    left: 400px;
+    opacity: 0.4;
+  }
+
+  #thirtyfour {
+    width: 120px;
+    height: 120px;
+    background: linear-gradient(#FF99FF, #CCFFFF, #FFB2FF, #FFEBF5);
+    border-radius: 60px;
+    position: absolute;
+    left: 100px;
+    opacity: 0.5;
+  }
+
+  #thirtyfive {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(#E6B4FF, #FFB2FF, #FFEBF5);
+    border-radius: 50px;
+    position: absolute;
+    left: 300px;
+    top: 300px;
+    opacity: 0.89;
+  }
+
+  #thirtysix {
+   width: 180px;
+   height: 180px;
+    background: linear-gradient(#E6B4FF, #B8B8FF, #FF99FF);
+    border-radius: 100px;
+    position: absolute;
+    left: 700px;
+  bottom: 400px;
+  opacity: 0.19;
+  }
+
+  #thirtyseven {
+    width: 120px;
+    height: 120px;
+    background: linear-gradient(#FF99FF, #FFEBF5);
+    border-radius: 60px;
+    position: absolute;
+     left: 700px;
+   bottom: 400px;
+   opacity: 0.49;
+  }
+
+  #thirtyeight {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(#E6B4FF, #FFEBF5);
+    border-radius: 50px;
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+    opacity: 0.69;
+  }
+
+  #thirtynine {
+    width: 180px;
+    height: 180px;
+    background: linear-gradient(#FFCCFF, #FFFFF0, #FF99FF);
+    border-radius: 100px;
+    position: absolute;
+    left: 400px;
+    bottom: 500px;
+    opacity: 0.7;
+  }
+
+  #forty {
+    width: 120px;
+    height: 120px;
+    background: linear-gradient(#FF99FF, #FFE6F0, #FFEBF5);
+    border-radius: 60px;
+    position: absolute;
+    left: 500px;
+    bottom: 500px;
+    opacity: 0.49;
+  }
