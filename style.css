@@ -18,11 +18,11 @@ body {
 }
 
 p {
-  margin-left: 100px;
-  margin-top: 100px;
+text-align: center;
   font-size: 50px;
-  font-family: arial;
-  color: #E0FFD6;
+  font-family: 'PT Sans', sans-serif;
+  color: #3385FF;
+  opacity: 0.3;
 }
 
 #one {
@@ -83,12 +83,12 @@ p {
 #six {
  width: 180px;
  height: 180px;
-  background: linear-gradient(#E6B4FF, #FF99FF);
+  background: linear-gradient(#E6B4FF, #FFFFE0, #FF99FF);
   border-radius: 100px;
   position: absolute;
   left: 700px;
 bottom: 400px;
-opacity: Math.random();
+opacity: 0.6 ;
 }
 
 #seven {
@@ -99,7 +99,7 @@ opacity: Math.random();
   position: absolute;
    left: 700px;
  bottom: 400px;
- opacity: Math.random();
+ opacity: 0.5;
 }
 
 #eight {
@@ -278,13 +278,13 @@ opacity: Math.random();
       opacity: Math.random();
     }
     #twentyfour {
-      width: 120px;
-      height: 120px;
-      background: linear-gradient(#FFCCE0, #FFEBF5);
-      border-radius: 60px;
+      width: 40px;
+      height: 40px;
+      background: linear-gradient(#FFCCE0, #FFEBF5, #FFFFE0);
+      border-radius: 20px;
       position: absolute;
       left: 500px;
-      opacity: Math.random();
+      opacity: 0.9;
     }
     #twentyfive {
       width: 30px;
@@ -320,8 +320,8 @@ opacity: Math.random();
     #twentyseven {
       width: 300px;
       height: 300px;
-      background: linear-gradient(#FFFFF5, #B2FFFF, #FFEBF5, #FFEBF5);
-      border-radius: 150px;
+      background: linear-gradient(#FFFFF5, #FFFFE0, #B2FFFF, #FFEBF5, #FFEBF5);
+      border-radius: 500px;
       position: absolute;
       left: 100px;
       opacity: 0.3;
@@ -334,17 +334,17 @@ opacity: Math.random();
       border-radius: 50px;
       position: absolute;
       left: 100px;
-      opacity: Math.random();
+      opacity: 0.9;
     }
 
     #twentynine {
       width: 120px;
       height: 120px;
-      background: linear-gradient(#FFCCE0, #FFEBF5, #FFB2FF);
+      background: linear-gradient(#FFCCE0, #FFEBF5, #FFB2FF, #FFFFE0);
       border-radius: 60px;
       position: absolute;
       left: 100px;
-      opacity: Math.random();
+      opacity: 0.8;
     }
 
   #thirty {
