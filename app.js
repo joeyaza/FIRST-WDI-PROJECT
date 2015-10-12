@@ -14,9 +14,9 @@ $(document).ready(function(){
 
 
     $('.circle').click (function() {
-      var audio = new Audio('Burst.mp3');
+      var audio = new Audio('sounds/Burst.mp3');
       audio.play()
-      $(this).hide("explode");
+      $(this).hide("explode", {pieces: 50}, 200);
       if (turn === "player 1") {
         counterOne++;
       } else {
@@ -26,7 +26,7 @@ $(document).ready(function(){
     });
 
   $('.circle2').click (function() {
-    var audio = new Audio('Pop2.mp3');
+    var audio = new Audio('sounds/Pop2.mp3');
     audio.play()
     $(this).hide("explode");
     if (turn === "player 1") {
@@ -71,17 +71,17 @@ $(document).ready(function(){
       setTimeout(function(){
         var t = confirm("good work player 2, you have popped a scrumtuous " + counterTwo + " bubbles")
         if (t == true) {
-          $("body").prepend("<div id = 'bub'><p>B U B B L E S</p><p>player one, you have popped a very wholesome "+ counterOne + " bubbles</p><p>player two, on the other hand, you have burst a decent " + counterTwo +  " bubbles CLICK ANYWHERE YOU LIKE TO PLAY AGAIN ...</p></div>")
+          $("body").prepend("<div id = 'bub'><p>B U B B L E S</p><p>player one, you have popped a very wholesome "+ counterOne + " bubbles</p><p>player two, on the other hand, you have burst a decent " + counterTwo +  " bubbles</p> <p>CLICK ANYWHERE YOU LIKE TO PLAY AGAIN ...</p></div>")
           $('#bub').click (function() {
             console.log("hello")
             location.reload();
           })
         }
-      }, 500);
+      }, 20000);
       
 
     }
-  }, 500)
+  }, 20000)
 
 
   
