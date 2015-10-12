@@ -1,54 +1,64 @@
 $(document).ready(function(){
-  var counter = 0;
+  var counterOne = 0
+  var counterTwo = 0
+  var turn = "player 1";
   var bub = [one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve,
   thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen, twenty, twentyone,
-  twentytwo, twentythree, twentyfour, twentyfive, twentysix, twentyseven, twentyeight,
-  twentynine, thirty, thirtyone, thirtytwo, thirtythree, thirtyfour, thirtyfive,
-  thirtysix, thirtyseven, thirtyeight, thirtynine, forty];
-  var i;
-
-    $('.circle').on("click", function() {
-      $(this).remove();
-      counter++;
-      console.log(counter.length);
-      if (counter.length == 29){
-        alert("all popped!");
-      }
-    })
-
-    function time1 (min, max) {
-      return Math.random() * (max - min) + min;
-    }
-
-    // function time2 (min, max) {
-    //   return Math.random() * (800 - 400) + 400 ;
-    // }
+  twentytwo, twentythree, twentyfour, twentyfive, twentysix, twentyseven, twentyeight, twentynine, thirty]
+  // thirtyone, thirtytwo, thirtythree, thirtyfour, thirtyfive,
+  // thirtysix, thirtyseven, thirtyeight, thirtynine, forty]
+  var i
 
 
+  alert("Welcome to bubbles...lets go ...");
 
-  function moveDiv($span) {
-    // console.log($span)
-    $span.fadeOut(time1(300,700), function() {
-      var maxLeft = $(window).width() - $span.width();
-      var maxTop = $(window).height() - $span.height();
-      var leftPos = Math.floor(Math.random() * (maxLeft + 1))
-      var topPos = Math.floor(Math.random() * (maxTop + 1))
+if (turn === "player 1") {
 
-      $span.css({ left: leftPos, top: topPos }).fadeIn(time1(300,700));
-    });
-  };
-
-  // setTimeout(function(){ alert("TIME IS UP"); }, 10000);
-
-  for (var i = 0; i < bub.length; i++){
-    var $span = $(bub[i]);
-    setInterval(moveDiv, time1(2000, 7000), $span);
-
-  }
-
+$('.circle').click (function() {
+  $(this).hide("explode"),
+  counterOne++;
+  console.log(counterOne)
 })
 
+}
 
+function time1 (min, max) {
+  return Math.random() * (max - min) + min;
+}
+
+
+for (var i = 0; i < bub.length; i++){
+  var $span = $(bub[i]);
+  setInterval(moveDiv, time1(2000, 7000), $span);
+
+}
+
+function moveDiv($span) {
+  $span.fadeOut(time1(300,700), function() {
+    var maxLeft = $(window).width() - $span.width();
+    var maxTop = $(window).height() - $span.height();
+    var leftPos = Math.floor(Math.random() * (maxLeft + 1))
+    var topPos = Math.floor(Math.random() * (maxTop + 1))
+
+    $span.css({ left: leftPos, top: topPos }).fadeIn(time1(300,700));
+  });
+};
+
+
+
+setTimeout(function(){ 
+
+  alert("TIME IS UP, you have burst a delicious " + counterOne + " bubbles"); }, 20000);
+   turn = "player 2";
+});
+
+
+
+  // $('.circle').on('click', function () {
+  //  $(this).stop(true,true).hide('explode', { pieces: 75 } , 1000, function() {
+  //   $('.corpo-del-testo').show();
+  //  });
+  // });
 
   // function moveDiv2() {
 
