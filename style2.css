@@ -1,0 +1,232 @@
+body {
+  height: 800px;
+  background: linear-gradient(#E6B4FF, #FFEBF5);
+  position: relative;
+}
+
+p {
+  margin-left: 40px;
+  font-size: 50px;
+  font-family: arial;
+  color: #E0FFD6;
+}
+
+#one {
+  width: 120px;
+  height: 120px;
+  background: linear-gradient(#FF99FF, #FFEBF5);
+  border-radius: 60px;
+  position: absolute;
+  left: 100px;
+  opacity: 0.45;
+ 
+}
+
+#two {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(#E6B4FF, #FFEBF5);
+  border-radius: 50px;
+  position: absolute;
+  left: 300px;
+  top: 300px;
+  opacity: 0.4;
+
+}
+
+#three {
+  width: 180px;
+  height: 180px;
+  background: linear-gradient(#E0FFD6, #FF99FF);
+  border-radius: 100px;
+  position: absolute;
+  left: 400px;
+  opacity: 0.57;
+
+}
+
+#four {
+  width: 400px;
+  height: 400px;
+  background: linear-gradient(#FF99FF, #FFEBF5);
+  border-radius: 200px;
+  position: absolute;
+  left: 100px;
+  opacity: 0.2;
+}
+
+#five {
+  width: 600px;
+  height: 600px;
+  background: linear-gradient(#E6B4FF, #FFEBF5,#E0D1FF);
+  border-radius: 300px;
+  position: absolute;
+  left: 300px;
+  top: 300px;
+  opacity: 0.4;
+}
+
+#six {
+ width: 180px;
+ height: 180px;
+  background: linear-gradient(#E6B4FF, #FF99FF, #E6B4FF);
+  border-radius: 100px;
+  position: absolute;
+  left: 700px;
+bottom: 400px;
+opacity: 0.3;
+}
+
+#seven {
+  width: 120px;
+  height: 120px;
+  background: linear-gradient(#FF99FF, #FFEBF5);
+  border-radius: 60px;
+  position: absolute;
+   left: 700px;
+ bottom: 400px;
+ opacity: 0.3;
+}
+
+#eight {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(#E6B4FF, #FFEBF5);
+  border-radius: 50px;
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+  opacity: 0.3;
+}
+
+#nine {
+  width: 180px;
+  height: 180px;
+  background: linear-gradient(#FFCCFF, #FF99FF);
+  border-radius: 100px;
+  position: absolute;
+  left: 400px;
+  bottom: 500px;
+  opacity: 0.3;
+}
+
+#ten {
+  width: 120px;
+  height: 120px;
+  background: linear-gradient(#FF99FF, #FFEBF5);
+  border-radius: 60px;
+  position: absolute;
+  left: 500px;
+  bottom: 500px;
+  opacity: 0.3;
+}
+
+#eleven {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(#E6B4FF, #FFEBF5);
+  border-radius: 50px;
+  position: absolute;
+  left: 400px;
+  bottom: 700px;
+  opacity: 0.3;
+}
+
+#twelve {
+  width: 180px;
+  height: 180px;
+  background: linear-gradient(#E0D1FF, #FFF5F0);
+  border-radius: 100px;
+  position: absolute;
+  left: 300px;
+  bottom: 900px;
+  opacity: 0.3;
+}
+
+#thirteen {
+  width: 120px;
+  height: 120px;
+  background: linear-gradient(#FF99FF, #FFEBF5);
+  border-radius: 60px;
+  position: absolute;
+  left: 700px;
+  bottom: 1500px;
+  opacity: 0.24;
+}
+
+#fourteen {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(#FFFFF5, #FFEBF5);
+  border-radius: 50px;
+  position: absolute;
+  left: 300px;
+  bottom: 1200px;
+  opacity: 0.3;
+}
+
+#fifteen {
+  width: 180px;
+  height: 180px;
+  background: linear-gradient(#F5D6EB, #FF99FF);
+  border-radius: 100px;
+  position: absolute;
+  left: 1000px;
+  bottom: 1200px;
+  opacity: 0.3;
+}
+
+#sixteen {
+  width: 160px;
+  height: 160px;
+  background: linear-gradient(#E0D1FF, #FFFFF5);
+  border-radius: 80px;
+  position: absolute;
+  left: 1000px;
+  bottom: 1200px;
+  opacity: 0.25;
+}
+
+#seventeen {
+  width: 180px;
+  height: 180px;
+  background: linear-gradient(#E0D1FF,#F5D6EB, #FF99FF);
+  border-radius: 100px;
+  position: absolute;
+  left: 300px;
+  bottom: 900px;
+  opacity: 0.4;
+}
+
+#eighteen {
+  width: 180px;
+  height: 180px;
+  background: linear-gradient(#E0D1FF, #FF99FF);
+  border-radius: 90px;
+  position: absolute;
+  left: 300px;
+  bottom: 800px;
+  opacity: 0.3;
+}
+
+#nineteen {
+    width: 120px;
+    height: 120px;
+    background: linear-gradient(#FF99FF, #FFEBF5);
+    border-radius: 60px;
+    position: absolute;
+    left: 200px;
+    bottom: 700px;
+    opacity: 0.3;
+}
+
+    #twenty {
+      width: 140px;
+      height: 140px;
+      background: linear-gradient(#EBF0FF, #EBE0FF);
+      border-radius: 70px;
+      position: absolute;
+      left: 100px;
+      bottom: 500px;
+      opacity: 0.4;
+    }

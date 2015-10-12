@@ -8,49 +8,98 @@ $(document).ready(function(){
   // thirtyone, thirtytwo, thirtythree, thirtyfour, thirtyfive,
   // thirtysix, thirtyseven, thirtyeight, thirtynine, forty]
   var i
+  var play = true
+
+  // while (play){
 
 
-  alert("Welcome to bubbles...lets go ...");
 
-if (turn === "player 1") {
 
-$('.circle').click (function() {
-  $(this).hide("explode"),
-  counterOne++;
-  console.log(counterOne)
+
+    alert("Welcome to bubbles...lets go ...");
+
+  // if (turn === "player 1") {
+
+    $('.circle').click (function() {
+      $(this).hide("explode");
+      if (turn === "player 1") {
+        counterOne++;
+      } else {
+        counterTwo++;
+      }
+      console.log("PLAYER1", counterOne, "PLAYER2", counterTwo);
+    });
+
+  // }
+
+  // else if (turn === "player 2") {
+
+  //   $('.circle').click (function() {
+  //     $(this).hide("explode"),
+
+  //     console.log(counterTwo)
+
+  //   })
+
+
+  // }
+
+  function time1 (min, max) {
+    return Math.random() * (max - min) + min;
+  }
+
+
+  for (var i = 0; i < bub.length; i++){
+    var $span = $(bub[i]);
+    setInterval(moveDiv, time1(500, 6000), $span);
+
+  }
+
+  function moveDiv($span) {
+    $span.fadeOut(time1(300,700), function() {
+      var maxLeft = $(window).width() - $span.width();
+      var maxTop = $(window).height() - $span.height();
+      var leftPos = Math.floor(Math.random() * (maxLeft + 1))
+      var topPos = Math.floor(Math.random() * (maxTop + 1))
+
+      $span.css({ left: leftPos, top: topPos }).fadeIn(time1(300,700));
+    });
+  };
+
+
+
+  setTimeout(function(){ 
+    var r = confirm("TIME IS UP, you have burst a delicious " + counterOne + " bubbles. player 2, ready to rock?");
+    turn = "player 2";
+    if (r == true) {
+      setTimeout(function(){
+        // $("body").prepend("<div id = 'bub'><p>B U B B L E S</p></div>")
+        var t = confirm("good work player 2, you have popped a scrumtuous " + counterTwo + " bubbles")
+        if (t == true) {
+          $("body").prepend("<div id = 'bub'><p>B U B B L E S</p><p>player one, you have popped a very wholesome "+ counterOne + " bubbles</p><p>player two, on the other hand, you have burst a decent " + counterTwo +  " bubbles</p><button id='again'>PLAY AGAIN?</button></div>")
+          $('#again').click (function() {
+            console.log("hello")
+            location.reload();
+          })
+        }
+      }, 20000);
+      
+
+    }
+  }, 20000)
+
+
+  
+  
+  // play = false
 })
 
-}
-
-function time1 (min, max) {
-  return Math.random() * (max - min) + min;
-}
 
 
-for (var i = 0; i < bub.length; i++){
-  var $span = $(bub[i]);
-  setInterval(moveDiv, time1(2000, 7000), $span);
-
-}
-
-function moveDiv($span) {
-  $span.fadeOut(time1(300,700), function() {
-    var maxLeft = $(window).width() - $span.width();
-    var maxTop = $(window).height() - $span.height();
-    var leftPos = Math.floor(Math.random() * (maxLeft + 1))
-    var topPos = Math.floor(Math.random() * (maxTop + 1))
-
-    $span.css({ left: leftPos, top: topPos }).fadeIn(time1(300,700));
-  });
-};
+//   , );
 
 
-
-setTimeout(function(){ 
-
-  alert("TIME IS UP, you have burst a delicious " + counterOne + " bubbles"); }, 20000);
-   turn = "player 2";
-});
+// });
 
 
 
