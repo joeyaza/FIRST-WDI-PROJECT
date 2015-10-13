@@ -42,7 +42,7 @@ $(document).ready(function(){
     };
 
 
-    $("body").prepend("<div id='bub2'><p> B U B B L E S </p><p>CLICK ME TO START POPPING</p></div>")
+    $("body").prepend("<div id='bub2'><p> B U B B L E S </p><p>  CLICK    ME    TO    START    POPPING  </p></div>")
     $("#bub2").click(function(){
       $("#bub2").fadeOut("slow");
       playerOnePlays()
