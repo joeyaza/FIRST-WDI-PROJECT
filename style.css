@@ -1,6 +1,6 @@
 body {
   height: 800px;
-  background: linear-gradient(#E6B4FF, #FFEBF5);
+  background: linear-gradient(#FFC2FF, #E0C2FF, #FFF5FF);
   position: relative;
 
 }
@@ -11,6 +11,7 @@ body {
   z-index: 10;
   text-align: center;
   margin-left: 100px;
+  opacity: 0.7;
 
 }
 
@@ -22,6 +23,7 @@ text-align: center;
   color: #3385FF;
   opacity: 0.6;
   margin-top: 90px;
+  z-index: 10;
 }
 
 #one {
@@ -131,7 +133,7 @@ opacity: 0.6 ;
   position: absolute;
   left: 500px;
   bottom: 500px;
-  opacity: Math.random();
+  opacity: 0.7;
 }
 
 #eleven {
@@ -197,7 +199,7 @@ opacity: 0.6 ;
   position: absolute;
   left: 1000px;
   bottom: 1200px;
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 #seventeen {
@@ -332,7 +334,7 @@ opacity: 0.6 ;
       border-radius: 50px;
       position: absolute;
       left: 100px;
-      opacity: 0.9;
+      opacity: 0.5;
     }
 
     #twentynine {
@@ -342,7 +344,7 @@ opacity: 0.6 ;
       border-radius: 60px;
       position: absolute;
       left: 100px;
-      opacity: 0.8;
+      opacity: 0.6;
     }
 
   #thirty {
@@ -362,103 +364,7 @@ opacity: 0.6 ;
     border-radius: 60px;
     position: absolute;
     left: 100px;
+    opacity: 0.3;
    
   }
 
-  #thirtytwo {
-    width: 100px;
-    height: 100px;
-    background: linear-gradient(#E6B4FF, #FFEBF5, #CCFFFF);
-    border-radius: 50px;
-    position: absolute;
-    left: 300px;
-    top: 300px;
-    opacity: Math.random();
-
-  }
-
-  #thirtythree {
-    width: 180px;
-    height: 180px;
-    background: linear-gradient(#E0FFD6, #FF99FF);
-    border-radius: 100px;
-    position: absolute;
-    left: 400px;
-    opacity: 0.4;
-  }
-
-  #thirtyfour {
-    width: 120px;
-    height: 120px;
-    background: linear-gradient(#FF99FF, #CCFFFF, #FFB2FF, #FFEBF5);
-    border-radius: 60px;
-    position: absolute;
-    left: 100px;
-    opacity: 0.5;
-  }
-
-  #thirtyfive {
-    width: 100px;
-    height: 100px;
-    background: linear-gradient(#E6B4FF, #FFB2FF, #FFEBF5);
-    border-radius: 50px;
-    position: absolute;
-    left: 300px;
-    top: 300px;
-    opacity: 0.89;
-  }
-
-  #thirtysix {
-   width: 180px;
-   height: 180px;
-    background: linear-gradient(#E6B4FF, #B8B8FF, #FF99FF);
-    border-radius: 100px;
-    position: absolute;
-    left: 700px;
-  bottom: 400px;
-  opacity: 0.19;
-  }
-
-  #thirtyseven {
-    width: 120px;
-    height: 120px;
-    background: linear-gradient(#FF99FF, #FFEBF5);
-    border-radius: 60px;
-    position: absolute;
-     left: 700px;
-   bottom: 400px;
-   opacity: 0.49;
-  }
-
-  #thirtyeight {
-    width: 100px;
-    height: 100px;
-    background: linear-gradient(#E6B4FF, #FFEBF5);
-    border-radius: 50px;
-    position: absolute;
-    left: 300px;
-    bottom: 300px;
-    opacity: 0.69;
-  }
-
-  #thirtynine {
-    width: 180px;
-    height: 180px;
-    background: linear-gradient(#FFCCFF, #FFFFF0, #FF99FF);
-    border-radius: 100px;
-    position: absolute;
-    left: 400px;
-    bottom: 500px;
-    opacity: 0.7;
-  }
-
-  #forty {
-    width: 120px;
-    height: 120px;
-    background: linear-gradient(#FF99FF, #FFE6F0, #FFEBF5);
-    border-radius: 60px;
-    position: absolute;
-    left: 500px;
-    bottom: 500px;
-    opacity: 0.49;
-  }
