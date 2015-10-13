@@ -5,24 +5,23 @@ body {
 
 }
 
-/*#content {
-  z-index: -10;
-  position: relative;
-
-}*/
 
 #bub {
   position: absolute;
   z-index: 10;
+  text-align: center;
+  margin-left: 100px;
 
 }
+
 
 p {
 text-align: center;
   font-size: 50px;
   font-family: 'PT Sans', sans-serif;
   color: #3385FF;
-  opacity: 0.3;
+  opacity: 0.6;
+  margin-top: 90px;
 }
 
 #one {
@@ -72,12 +71,12 @@ text-align: center;
 #five {
   width: 100px;
   height: 100px;
-  background: linear-gradient(#E6B4FF, #FFEBF5);
+  background: linear-gradient(#E6B4FF, #FF99FF, #FFEBF5);
   border-radius: 50px;
   position: absolute;
   left: 300px;
   top: 300px;
-  opacity: Math.random();
+  opacity: 0.6;
 }
 
 #six {
@@ -99,7 +98,7 @@ opacity: 0.6 ;
   position: absolute;
    left: 700px;
  bottom: 400px;
- opacity: 0.5;
+ opacity: 0.4;
 }
 
 #eight {
@@ -110,7 +109,7 @@ opacity: 0.6 ;
   position: absolute;
   left: 300px;
   bottom: 300px;
-  opacity: Math.random();
+  opacity: 0.8;
 }
 
 #nine {
@@ -121,7 +120,7 @@ opacity: 0.6 ;
   position: absolute;
   left: 400px;
   bottom: 500px;
-  opacity: Math.random();
+  opacity: 0.4;
 }
 
 #ten {
@@ -143,7 +142,7 @@ opacity: 0.6 ;
   position: absolute;
   left: 400px;
   bottom: 700px;
-  opacity: Math.random();
+  opacity: 0.5;
 }
 
 #twelve {
@@ -154,7 +153,7 @@ opacity: 0.6 ;
   position: absolute;
   left: 300px;
   bottom: 900px;
-  opacity: Math.random();
+  opacity: 0.6;
 }
 
 #thirteen {
@@ -165,7 +164,7 @@ opacity: 0.6 ;
   position: absolute;
   left: 700px;
   bottom: 1500px;
-  opacity: Math.random();
+  opacity: 0.4;
 }
 
 #fourteen {
@@ -176,7 +175,7 @@ opacity: 0.6 ;
   position: absolute;
   left: 300px;
   bottom: 1200px;
-  opacity: Math.random();
+  opacity: 0.7;
 }
 
 #fifteen {
@@ -187,7 +186,7 @@ opacity: 0.6 ;
   position: absolute;
   left: 1000px;
   bottom: 1200px;
-  opacity: Math.random();
+  opacity: 0.4;
 }
 
 #sixteen {
@@ -265,7 +264,7 @@ opacity: 0.6 ;
       position: absolute;
       left: 800px;
       bottom: 200px;
-      opacity: Math.random();
+      opacity: 0.7;
     }
 
     #twentythree {
@@ -275,7 +274,7 @@ opacity: 0.6 ;
       border-radius: 60px;
       position: absolute;
       left: 600px;
-      opacity: Math.random();
+      opacity: 0.5;
     }
     #twentyfour {
       width: 40px;
@@ -293,7 +292,7 @@ opacity: 0.6 ;
       border-radius: 15px;
       position: absolute;
       left: 450px;
-      opacity: Math.random();
+      opacity: 0.4;
     }
 
     #twentysix {
@@ -303,7 +302,7 @@ opacity: 0.6 ;
       border-radius: 25px;
       position: absolute;
       left: 100px;
-      opacity: Math.random();
+      opacity: 0.7;
     }
 
     #twentysix {
@@ -313,8 +312,7 @@ opacity: 0.6 ;
       border-radius: 150px;
       position: absolute;
       left: 100px;
-      opacity: 0.2;
-      opacity: Math.random();
+      opacity: 0.3;
     }
 
     #twentyseven {
