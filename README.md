@@ -17,7 +17,7 @@ an ethereal visual and audio experience to achieve pleasant tranquility.
 
  2 function define each players playing time (ie currently 20 seconds).
 
-#challenges
+#CHALLENGES
 
 id like to improve the animation when the bubble bursts. At the moment the bubble 
 fades to one corner which looks good and is a vast improvement from it just
