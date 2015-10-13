@@ -5,16 +5,10 @@ body {
 
 }
 
-
-/*#bub {
-  position: absolute;
-  z-index: 10;
-  text-align: center;
-  margin-left: 100px;
-  opacity: 0.7;
-
-}*/
-
+/*#bub2 {
+  margin-top: 90px;
+}
+*/
 
 p {
 text-align: center;
@@ -24,6 +18,7 @@ text-align: center;
   opacity: 0.6;
   margin-top: 90px;
   z-index: 10;
+  position: relative;
 }
 
 #one {
