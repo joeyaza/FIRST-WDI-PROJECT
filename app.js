@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
   var counterOne = 0
   var counterTwo = 0
@@ -93,7 +92,3 @@ function playerTwoPlays() {
   }, 20000)
 }
 })
-
-
-
-
